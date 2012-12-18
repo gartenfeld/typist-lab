@@ -6,7 +6,7 @@
   <title>Live Tokenizer</title>
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular.min.js"></script>
 </head>
 
 <body ng-controller="TokenCtrl">
@@ -18,17 +18,13 @@
       
       <button class="btn" ng-repeat="token in tokens">{{token}}</button>
 
-
     </div>
 
     <hr>
   
-
     <div class="row-fluid">
       <div class="span6 offset4">
-
-          <input ng-change="runText()" ng-model="inputText" class="input-xxlarge" placeholder="Type a sentence here.">
-
+        <input ng-change="runText()" ng-model="inputText" class="input-xxlarge" placeholder="Type a sentence here.">
       </div>
     </div>
 
@@ -37,4 +33,5 @@
 </body>
 
   <script src="js/controllers.js"></script>
+
 </html>
