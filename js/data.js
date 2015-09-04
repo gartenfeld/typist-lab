@@ -1,4 +1,4 @@
-items = [
+var items = [
 {"cn": "这是谁的手袋？", "en": "Whose handbag is it?", "mp3": "C001_02.mp3"},
 {"cn": "对不起。", "en": "Excuse me!", "mp3": "C001_03.mp3"},
 {"cn": "什么事？", "en": "Yes?", "mp3": "C001_04.mp3"},
@@ -288,14 +288,14 @@ items = [
 {"cn": "放这儿。", "en": "Here!", "mp3": "C041_05.mp3"},
 {"cn": "把它放在这把椅子上。", "en": "Put it on this chair.", "mp3": "C041_06.mp3"},
 {"cn": "里面是什么东西？", "en": "What's in it?", "mp3": "C041_07.mp3"},
-{"cn": "一块乳酪、", "en": "A piece of cheese.", "mp3": "C041_08.mp3"},
-{"cn": "一块面包、", "en": "A loaf of bread.", "mp3": "C041_09.mp3"},
-{"cn": "一块肥皂、", "en": "A bar of soap.", "mp3": "C041_10.mp3"},
-{"cn": "一块巧克力、", "en": "A bar of Chocolate.", "mp3": "C041_11.mp3"},
-{"cn": "一瓶牛奶、", "en": "A bottle of milk.", "mp3": "C041_12.mp3"},
-{"cn": "一磅糖、", "en": "A pound of sugar.", "mp3": "C041_13.mp3"},
-{"cn": "半磅咖啡、", "en": "Half a pound of coffee.", "mp3": "C041_14.mp3"},
-{"cn": "1/4 磅茶叶和一听烟丝。", "en": "A quarter of a pound of tea. And a tin of tobacco.", "mp3": "C041_15.mp3"},
+{"cn": "一块乳酪", "en": "A piece of cheese.", "mp3": "C041_08.mp3"},
+{"cn": "一块面包", "en": "A loaf of bread.", "mp3": "C041_09.mp3"},
+{"cn": "一块肥皂", "en": "A bar of soap.", "mp3": "C041_10.mp3"},
+{"cn": "一块巧克力", "en": "A bar of Chocolate.", "mp3": "C041_11.mp3"},
+{"cn": "一瓶牛奶", "en": "A bottle of milk.", "mp3": "C041_12.mp3"},
+{"cn": "一磅糖", "en": "A pound of sugar.", "mp3": "C041_13.mp3"},
+{"cn": "半磅咖啡", "en": "Half a pound of coffee.", "mp3": "C041_14.mp3"},
+{"cn": "1/4 磅茶叶和一听烟丝", "en": "A quarter of a pound of tea. And a tin of tobacco.", "mp3": "C041_15.mp3"},
 {"cn": "那听烟丝是给我的吗？", "en": "Is that tin of tobacco for me?", "mp3": "C041_16.mp3"},
 {"cn": "噢，当然不会是给我的！", "en": "Well, it's certainly not for me!", "mp3": "C041_17.mp3"},
 {"cn": "你怎么知道萨姆不常沏茶？", "en": "How do you know Sam doesn't make the tea very often?", "mp3": "C043_02.mp3"},
@@ -1268,4 +1268,4 @@ items = [
 {"cn": "而满地都是纸片、烟头、旧轮胎，空瓶子和生锈的空罐头盒。", "en": "And the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.", "mp3": "C143_13.mp3"},
 {"cn": "在垃圾堆中我发现了一块牌子，上面写着：", "en": "Among the rubbish, I found a sign which said…", "mp3": "C143_14.mp3"},
 {"cn": "“凡在此树林里丢弃垃圾者，将依法处置。”", "en": "'Anyone who leaves litter in these woods will be prosecuted!'", "mp3": "C143_15.mp3"},
-]
+];

@@ -1,0 +1,93 @@
+/*@import url(http://fonts.googleapis.com/css?family=Vollkorn:400);*/
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body, #warning {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+#warning {
+	left: 0;
+	top: 0;
+	opacity: 0;
+	background-color: #FFC2D6;
+}
+
+body {
+  background-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+hr {
+	clear: both;
+}
+
+.container {
+	margin: 20% auto;
+	max-width: 900px;
+	min-width: 890px;
+	width: 70%;
+}
+
+.sentence {
+	padding-left: 20px;
+	padding-bottom: 70px;
+}
+
+.translation {
+	padding-left: 20px;
+	margin-top: 1em;
+	font-size: 1.2em;
+	color: #aaa;
+}
+
+.line {
+	clear:both;
+}
+
+.current {
+	background-color: #FFB84D !important;
+}
+
+.character {
+	display: inline-block;
+	color: transparent;
+	background-color: #f8f8f8;
+	min-width: 22px;
+	min-height: 33px;
+	line-height: 32px;
+	margin: 0px 1px 25px 1px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	border-bottom: 3px #000 solid;
+	border-radius: 3px;
+	font-size: 2em;
+	font-family: "Droid Sans Mono", Serif;
+	text-align: center;
+	vertical-align: text-bottom;
+}
+
+.apparent {
+	color: #000;
+	background-color: transparent;
+	border-bottom: 3px transparent solid;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+}
