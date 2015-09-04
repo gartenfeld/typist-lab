@@ -1,4 +1,4 @@
-var AUDIO_DIR = 'audio/NCE/';
+var AUDIO_DIR = 'https://dbx.firebaseapp.com/audio/NCE/';
 window.answer = "";
 
 function initSound () {
@@ -11,9 +11,19 @@ function initSound () {
     volume: 60,
     onload: function() {
       this.stop();
-      this.play({loops:200});
+      this.play({ loops: 200 });
     }
   }).load();
+}
+
+function isDesktop () {
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    loadSentence("Try this app on a desktop computer with a keyboard.");
+    $('.character').attr('class', 'character apparent');
+    return false;
+  } else {
+    return true;
+  }
 }
 
 function loadSentence (sentence) {

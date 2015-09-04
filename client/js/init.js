@@ -4,12 +4,10 @@ soundManager.setup({
   preferFlash: false,
   onready: function() {
     $(function(){
-      initSound();
-      loadAnother();
+      if (isDesktop()) {
+        initSound();
+        loadAnother();
+      }
     });
   }
 });
-
-
-
-

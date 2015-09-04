@@ -1202,7 +1202,7 @@ var items = [
 {"cn": "当然啦。", "en": "It certainly is.", "mp3": "C135_21.mp3"},
 {"cn": "他将是她的第6个丈夫！", "en": "He'll be her sixth husband!", "mp3": "C135_22.mp3"},
 {"cn": "如果朱莉有那笔钱，她想做什么呢？", "en": "What would Julie like to do, if she had the money?", "mp3": "C137_02.mp3"},
-{"cn": "布赖恩，你正在下足球赛的赌注吗？", "en": "Are you doing the football pools, Brain?", "mp3": "C137_03.mp3"},
+{"cn": "布赖恩，你正在下足球赛的赌注吗？", "en": "Are you doing the football pools, Brian?", "mp3": "C137_03.mp3"},
 {"cn": "是的。我这就做完了，朱莉。", "en": "Yes, I've nearly finished, Julie.", "mp3": "C137_04.mp3"},
 {"cn": "我敢肯定这星期我们会赢一点的。", "en": "I'm sure we'll win something this week.", "mp3": "C137_05.mp3"},
 {"cn": "你老是那样说，但是我们从来没赢过！", "en": "You always say that, but we never win anything!", "mp3": "C137_06.mp3"},
