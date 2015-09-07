@@ -51,7 +51,8 @@ hr {
 	padding-left: 20px;
 	margin-top: 1em;
 	font-size: 1.2em;
-	color: #aaa;
+  font-family: "Hiragino Kaku Gothic ProN";
+	color: #ccc;
 }
 
 .line {
